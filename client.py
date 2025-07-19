@@ -9,7 +9,7 @@ client = Client("server.py")
 async def main():
     async with client:
         """
-        Connects to the MCP server, retrieves CSV data,
+        Connects to the MCP server, retrieves XLSX data,
         and sends it to the Gemini API for analysis.
         """
         
